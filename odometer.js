@@ -655,6 +655,7 @@
 
   }).call(this);
 
+  var delayInMilliseconds = 500;
 
   fetch('https://staging.api.ctrlv.ca/api/corp/getAllTimeStatisticsForWebsite')
     .then((response) => {
@@ -663,8 +664,11 @@
     .then((data) => {
       setTimeout(function() {
         odometerCustomers.innerHTML = data.res.customers;
-        odometerMinutes.innerHTML = data.res.minutes;
-        odometerLoyaltyDollars.innerHTML = data.res.loyalty_dollars;
-        console.log(data.res);
       })
+      setTimeout(function() {
+        odometerMinutes.innerHTML = data.res.minutes;
+      }, delayInMilliseconds)
+      setTimeout(function() {
+        odometerLoyaltyDollars.innerHTML = data.res.loyalty_dollars;
+      }, (delayInMilliseconds * 2))
     })
