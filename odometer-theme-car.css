@@ -53,6 +53,7 @@
 
 .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-car .odometer-digit .odometer-value.odometer-last-value {
   position: absolute;
+  left: 0.25em
 }
 
 .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-car.odometer-animating-up .odometer-ribbon-inner {
@@ -98,7 +99,7 @@
   border-radius: 0.34em;
   font-family: 'Days One', sans-serif;
   padding: 0.15em;
-  background: #000;
+  background: #2d2d2d;
   color: #0098da;
 }
 
