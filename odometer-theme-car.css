@@ -1,7 +1,7 @@
 .odometer.odometer-auto-theme, .odometer.odometer-theme-car {
   display: inline-block;
   vertical-align: middle;
-  font-size: 5em;
+  font-size: 3em;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
@@ -27,7 +27,7 @@
 }
 
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
-  text-align: left;
+  text-align: center;
   display: block;
   position: absolute;
   top: 0;
@@ -99,7 +99,7 @@
   font-family: 'Days One', sans-serif;
   padding: 0.15em;
   background: #000;
-  color: #eee0d3;
+  color: #0098da;
 }
 
 .odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-car .odometer-digit {
