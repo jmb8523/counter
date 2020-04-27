@@ -1,9 +1,79 @@
 body {
+  background-color: #000000;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
 
-.odometer {
-  font-size: 4em;
+h1 {
+  font-family: 'Days One', sans-serif;
+  color: #0098da;
+  justify-content: left;
+}
+
+.customers {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.customers-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.odometer-customers-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.minutes {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.minutes-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.odometer-minutes-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.loyalty {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.loyalty-dollars-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.dollar-sign-div {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.4rem;
+}
+
+.odometer-loyalty-dollars-div {
+  width: 30%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.spacing-div {
+  visibility: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.4rem;
 }
