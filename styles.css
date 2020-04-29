@@ -1,0 +1,212 @@
+body {
+  background-color: #000000;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Days One', sans-serif;
+  color: #0098da;
+  font-size: 4vw;
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  margin: 1vw auto 7vw auto;
+  white-space: pre;
+}
+
+.top-header {
+  font-size: 7vw;
+  text-decoration: underline;
+  margin-bottom: 6vw;
+}
+
+.column1 {
+  width: 100%
+}
+
+.column2 {
+  display: flex;
+  position: relative;
+  width: 100%
+}
+
+.dollar-sign {
+  display: inline-flex;
+  font-family: 'Days One', sans-serif;
+  font-size: 5vw;
+  color: #FFFFFF;
+  margin: 2.1vw 0.5vw 0 auto;
+}
+
+.loyalty-dollars {
+  display: inline-flex;
+  margin: 1vw auto 0 auto;
+}
+
+.spacing {
+  display: none;
+}
+
+.padding {
+  width: 4.4vw;
+}
+
+#odometerLoyaltyDollars {
+  margin: 1vw auto 7vw 0;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  body {
+    background-color: #000000;
+    min-height: 100vh;
+  }
+
+  h1 {
+    width: 100%;
+    font-family: 'Days One', sans-serif;
+    color: #0098da;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: auto 0;
+  }
+
+  h2 {
+    margin: auto auto auto 0.1vw;
+    white-space: pre;
+  }
+
+  .odometer.odometer-auto-theme, .odometer.odometer-theme-car {
+    font-size: 3vw;
+  }
+
+  .top-header {
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 3vw;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: minmax(min-content, min-content) minmax(min-content, 70%);
+    grid-auto-rows: 8vw;
+  }
+
+  .column1 {
+    display: flex;
+    margin: 0.1vw 0;
+    white-space: pre;
+  }
+
+  .column1-title {
+    display: inline-block;
+    text-align: right;
+  }
+
+  .column2 {
+    display: flex;
+    margin: 0.1vw 0;
+    flex-wrap: nowrap;
+  }
+
+  .spacing {
+    visibility: hidden;
+    display: inline-flex;
+    height: inherit;
+    font-family: 'Days One', sans-serif;
+    color: #0098da;
+    font-size: 3vw;
+    margin: auto 0 auto 1.75vw;
+  }
+
+  .dollar-sign {
+    display: inline-flex;
+    height: inherit;
+    font-family: 'Days One', sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+    margin: auto 0 auto 1.75vw;
+  }
+
+  #odometerLoyaltyDollars {
+    margin: auto auto auto 0.25vw;
+  }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #000000;
+    min-height: 100vh;
+  }
+
+  h1 {
+    font-family: 'Days One', sans-serif;
+    color: #0098da;
+    font-size: 2.5vw;
+    text-align: center;
+    margin: 0;
+  }
+
+  h2 {
+    margin: auto auto auto 0.5vw;
+    white-space: pre;
+  }
+
+  .odometer.odometer-auto-theme, .odometer.odometer-theme-car {
+    font-size: 3vw;
+  }
+
+  .top-header {
+    font-size: 3vw;
+    text-decoration: underline;
+    margin-bottom: 3vw;
+  }
+
+  .table {
+    display: grid;
+    grid-template-columns: minmax(min-content, min-content) minmax(min-content, 70%);
+  }
+
+  .column1 {
+    margin: 0;
+    white-space: pre;
+  }
+
+  .column1-title {
+    text-align: right;
+  }
+
+  .column2 {
+    display: flex;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+
+  .spacing {
+    visibility: hidden;
+    display: inline-flex;
+    height: inherit;
+    font-family: 'Days One', sans-serif;
+    color: #0098da;
+    font-size: 3vw;
+    margin: auto 0 auto 2vw;
+  }
+
+  .dollar-sign {
+    display: inline-flex;
+    height: inherit;
+    font-family: 'Days One', sans-serif;
+    color: #FFFFFF;
+    font-size: 3vw;
+    margin: auto 0 auto 2vw;
+  }
+
+  #odometerLoyaltyDollars {
+    margin: auto auto auto 0.5vw;
+  }
+}
